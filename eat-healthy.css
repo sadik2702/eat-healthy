@@ -98,7 +98,9 @@ h2{
     padding: 50px;
 }
 .footer{
-
+    background-color: #0B0D17;
+    padding: 5% 5%;
+    text-align: center;
 }
 .text-gradient{
     background-image: <gradient>
