@@ -97,13 +97,30 @@ h2{
     line-height: 3px;
     padding: 50px;
 }
-.footer{
+.end{
     background-color: #0B0D17;
-    padding: 5% 5%;
+    padding: 3% 3%;
     text-align: center;
 }
 .text-gradient{
-    background-image: <gradient>
-    background-clip: text
-    text-fill-color: transparent    
+    background-color: red;
+  
+     /* Create the gradient. */
+     background-image: linear-gradient(90deg,#FBA24F,#f24426);
+  
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+     background-repeat: repeat;
+   
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+footer{
+    text-align: right;
+    background-color: #0B0D17;
+    color: white;
+    padding: 5px 5px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 200;
 }
