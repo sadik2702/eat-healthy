@@ -1,0 +1,57 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #575757;
+}
+.orange{
+    color: #FBA24F;
+}
+.text{
+    color: #828282;
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 40px;
+}
+a{
+    color: white;
+    background-image: linear-gradient(90deg,#FBA24F,#f24426);
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 24px 42px;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px orangered;
+}
+.flex{
+    display: flex;
+    margin: 10% 0% 0% 5%;
+    padding-bottom: 100px;
+}
+.half-width{
+    width: 40%; 
+}
+.bg-img{
+    position:relative;
+    display: inline-block;
+    width: 100%;
+}
+.bg-img .text-2{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: left;
+    padding-left: 50%;
+    width: 50%; /* Set the width of the positioned div */
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #575757;
+}
