@@ -1,16 +1,19 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 
 }
-h1{
+
+h1 {
     font-size: 60px;
     font-weight: 700;
 }
-.orange{
+
+.orange {
     color: #FBA24F;
 }
-.text{
+
+.text {
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
@@ -18,7 +21,8 @@ h1{
     text-align: justify;
     line-height: 30px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -26,34 +30,42 @@ a{
     font-size: 18px;
     box-shadow: 0px 0px 10px orangered;
 }
-.gradient{
-    background-image: linear-gradient(90deg,#FBA24F,#f24426);
+
+.gradient {
+    background-image: linear-gradient(90deg, #FBA24F, #f24426);
 }
-.flex{
+
+.flex {
     display: flex;
     margin: 5% 0% 0% 5%;
 }
-.bg-img{
-    position:relative;
+
+.bg-img {
+    position: relative;
     display: inline-block;
     width: 100%;
 }
-.text-2{
+
+.text-2 {
     position: absolute;
     z-index: 10;
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 20%; /* Adjust this value to move the positioned div up and down */
+    top: 20%;
+    /* Adjust this value to move the positioned div up and down */
     text-align: left;
     padding-left: 50%;
-    width: 30%; /* Set the width of the positioned div */
+    width: 30%;
+    /* Set the width of the positioned div */
 }
-h2{
+
+h2 {
     font-size: 40px;
     font-weight: 700;
 }
-.recepies-text{
+
+.recepies-text {
     text-align: center;
     width: 40%;
     padding-top: 100px;
@@ -61,7 +73,8 @@ h2{
     margin-left: 30%;
     line-height: 30px;
 }
-.food{
+
+.food {
     box-shadow: 0px 0px 20px rgb(206, 204, 204);
     border: 5px solid white;
     border-radius: 30px;
@@ -69,53 +82,61 @@ h2{
     margin: 0px 20px;
 }
 
-.last{
+.last {
     display: flex;
     margin: 0% 0% 8% 7%;
-    
+
 }
-.food img{
+
+.food img {
     height: 308px;
     width: 550px;
 }
-.r-details{
+
+.r-details {
     color: black;
     font-size: large;
     line-height: 30px;
     width: 500px;
 }
-.gray{
+
+.gray {
     color: #575757;
 }
-.achievements{
+
+.achievements {
     box-shadow: 0px 0px 20px rgb(200, 197, 197);
     margin: 0% 7% 8% 7%;
     border-radius: 20px;
 }
-.achievements div{
+
+.achievements div {
     margin-left: 150px;
     line-height: 3px;
     padding: 50px;
 }
-.end{
+
+.end {
     background-color: #0B0D17;
     padding: 3% 3%;
     text-align: center;
 }
-.text-gradient{
+
+.text-gradient {
     background-color: red;
-  
-     /* Create the gradient. */
-     background-image: linear-gradient(90deg,#FBA24F,#f24426);
-  
+
+    /* Create the gradient. */
+    background-image: linear-gradient(90deg, #FBA24F, #f24426);
+
     /* Set the background size and repeat properties. */
     background-size: 100%;
-     background-repeat: repeat;
-   
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-footer{
+
+footer {
     text-align: right;
     background-color: #0B0D17;
     color: white;
